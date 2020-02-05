@@ -13,6 +13,8 @@ import {
   Text,
 } from 'react-native';
 
+// import { createStackNavigator, createAppContainer } from 'react-navigation';
+
 import {
   Header,
   LearnMoreLinks,
@@ -32,3 +34,12 @@ export default class App extends Component {
     );
   }
 }
+
+// const AppNavigator = createStackNavigator({
+//   Home: {
+//     screen: LoginScreen,
+//     navigationOptions: { header: null },
+//   }
+// })
+
+// export default createAppContainer(AppNavigator);
